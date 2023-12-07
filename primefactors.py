@@ -1,6 +1,7 @@
 
 print(1)
-for i in range(2,11):
+n=int(input("Enter the number upto which primefactors to be calculated:"))
+for i in range(2,n):
 	p=True
 	for j in range(2,i):
 		if i%j==0:
